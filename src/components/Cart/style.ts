@@ -173,7 +173,7 @@ export const CheckoutButton = styled.button`
 export const CartFooter = styled.div`
   box-sizing: border-box;
   padding: 5%;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   height: 200px;
@@ -189,5 +189,18 @@ export const CartFooter = styled.div`
     top: -20px;
     left: 0;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.2), transparent);
+  }
+`;
+
+export const CartInput = styled.input`
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  background: #4d4f85;
+  border: none;
+  border-radius: 3px;
+
+  ::placeholder {
+    color: #eae9d7;
   }
 `;
